@@ -1316,7 +1316,7 @@ int cherche_Erreur(int erreur,s_liberreur * * p_liberreur)
         {70 ,{"DISCORDANCE:code degrevement TV droits acquis / degrevement TH"}},
         {71 ,{"Somme plaf et reductions differente de somme des cotisations"}},
         {72 ,{"Incoherence entre code degrevement TV a Z et code DSF"}},
-        {77 ,{"Le rang de sortie exonération TH est invalide"}},
+        {77 ,{"Le rang de sortie exoneration TH est invalide"}},
         {78 ,{"Le rang de sortie abattement TH est invalide"}},
         {79 ,{"Les codes abattement et exoneration sont servis"}},
         {80 ,{"Le code taxation est incompatible avec le code abattement"}},

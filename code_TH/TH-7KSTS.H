@@ -1,4 +1,8 @@
-/* 
+#pragma once
+#ifndef th7ksts
+#define th7ksts
+
+/*
 #*************************************************************************************************************************
 #
 #DGFIP [2018]
@@ -20,6 +24,7 @@
 
 /* Fichier de definition des structures                                       */
 
+#ifndef th_7KSTS
 #if !defined( th_7KSTS )
     #define   th_7KSTS
     #include  <math.h>
@@ -30,6 +35,7 @@
     #include  <th-7ktos.h>
 #else
     #include  "th-7ktos"
+#endif
 #endif
 
 
@@ -695,24 +701,26 @@ typedef struct {
   ============================================================================*/
 
 #if defined(ILIAD)
-    s_e1 e1;
-    s_s1 s1;
-    s_e2 e2;
-    s_s2 s2;
-    s_e3 e3;
-    s_e4 e4;
-    s_s4 s4;
-    s_e5 e5;
-    s_s5 s5;
-    s_e6 e6;
-    s_s6 s6;
-    s_e7 e7;
-    s_s7 s7;
+    //s_e1 e1;
+    //s_s1 s1;
+    //s_e2 e2;
+    //s_s2 s2;
+    //s_e3 e3;
+    //s_e4 e4;
+    //s_s4 s4;
+    //s_e5 e5;
+    //s_s5 s5;
+    //s_e6 e6;
+    //s_s6 s6;
+    //s_e7 e7;
+    //s_s7 s7;
 #endif
 
 #endif
 
 #if !defined(LA_SIGNATURE)
-    extern const s_signature la_signature ={ SIGNATURE } ;
+    //extern const s_signature la_signature ={ SIGNATURE } ;
     #define LA_SIGNATURE
+#endif
+
 #endif

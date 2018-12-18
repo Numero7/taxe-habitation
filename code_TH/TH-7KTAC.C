@@ -591,7 +591,7 @@ int controle_ktac(s_e8 * p_e8, s_s8 * p_s8)
        }
 
        if ((p_e8->antax) >= 2015){
-        if ((p_e8->indgem == ' ') && (p_e8->timpe != 0 )
+        if (((p_e8->indgem == ' ') && (p_e8->timpe != 0 ))
             || (p_e8->timpe > 1)){
 
        		return(2476);
